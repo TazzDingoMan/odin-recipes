@@ -1,0 +1,44 @@
+/* style.css */
+* {
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: #99CCAA;
+    align-content:center;
+}
+.topper{
+    font-size: 36px;
+    font-weight: bold;
+    color: #6633AA;
+    text-align: center;
+}
+
+#wrapper {
+    border: 5px;
+    padding: 3px;
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+    align-content:center;
+}
+
+#div1 {
+    float:left;
+    height: auto;
+    width: 240px;
+}
+
+#div2 {
+    float: left;
+    height: auto;
+
+    width: 240px;
+}
+
+#div3 {
+    float: left;
+    height: auto;
+    padding: 3px;
+    border: 5px;
+    width: 240px;
+}
