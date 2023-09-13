@@ -4,41 +4,43 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     background-color: #99CCAA;
-    align-content:center;
 }
-.topper{
-    font-size: 36px;
-    font-weight: bold;
-    color: #6633AA;
+
+.card {
+    width: 800px;
+    margin: 16px auto;
+    padding: 8px;
+    display: block;
+    font-size: 40px;
+    color: purple;
+    text-align: center;
+  }
+
+.card2 {
+    width: 800px;
+    margin: 8px auto;
+    padding: 8px;
+    display: block;
+    color: purple;
     text-align: center;
 }
-
-#wrapper {
-    border: 5px;
-    padding: 3px;
+  
+  .title {
+    font-size: 24px;
+  }
+  
+  .content {
+    display: inline-block;
+    font-size: 24px;
+    margin: 5px;
+  }
+  
+  .container {
     text-align: center;
-    font-size: 30px;
-    overflow: hidden;
-    align-content:center;
-}
+    padding: 8px;
+    margin: 0px;
+  }
 
-#div1 {
-    float:left;
-    height: auto;
-    width: 240px;
-}
-
-#div2 {
-    float: left;
-    height: auto;
-
-    width: 240px;
-}
-
-#div3 {
-    float: left;
-    height: auto;
-    padding: 3px;
-    border: 5px;
-    width: 240px;
-}
+  img {
+    border-radius: 3%
+  }
